@@ -1,0 +1,25 @@
+{
+  "name": "01inception",
+  "version": "1.0.0",
+  "description": "learning react from scratch",
+  "main": "App.js",
+  "scripts": {
+    "test": "jtest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upagyasingh/HelloReact.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "upagya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/upagyasingh/HelloReact/issues"
+  },
+  "homepage": "https://github.com/upagyasingh/HelloReact#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
