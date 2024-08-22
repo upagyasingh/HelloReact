@@ -8,7 +8,7 @@
 
 Emmet is a set of plug-ins for text editors that help web developers write HTML and CSS code faster
 
-### Difference between Library and Framework ? 
+## 1. Difference between Library and Framework ? 
 
 **Library** (Building the House with Bricks):
 
@@ -27,7 +27,7 @@ Control: The framework controls the flow and structure of your application. You 
 
 Example: Buying a prebuilt house is like using a framework. The house (framework) is already constructed with a specific layout, style, and features. You fit your furniture and decorations (your code) into the house, but the overall structure and design are predefined.
 
-### What is a CDN ? 
+## 2. What is a CDN ? 
 
 A Content Delivery Network (CDN) is a network of distributed servers designed to deliver content to users more efficiently by serving it from locations closer to them.
 
@@ -53,7 +53,7 @@ ReactDOM CDN: https://unpkg.com/react-dom@17/umd/react-dom.development.js is the
 
 **For a more robust setup, consider using modern build tools like Create React App, Vite, or Next.js, which handle dependencies, versioning, and optimizations. However, for learning and quick testing, using CDN links is a straightforward and effective approach.**
 
-## Why React is called React ?
+## 3. Why React is called React ?
 
 React is named for its core functionalities that focus on efficiently updating the user interface. Here are the key reasons:
 
@@ -71,7 +71,7 @@ React is named for its core functionalities that focus on efficiently updating t
 
 React's name reflects its ability to dynamically respond to changes and efficiently manage UI updates.
 
-## What is crossorigin in script tag ? 
+## 4. What is crossorigin in script tag ? 
 
 - Cross-Origin refers to interactions between web pages or resources that come from different origins. 
 - `Cross-Origin Resource Sharing (CORS)` is related to web security and protocols, but it's not a protocol itself. Instead, it's a set of rules and headers that web browsers use to manage cross-origin requests securely.
@@ -101,7 +101,7 @@ React's name reflects its ability to dynamically respond to changes and efficien
 
 In web terms, the `crossorigin` attribute dictates how the browser requests and handles resources from other domains, controlling whether credentials are sent and how the server should respond.
 
-## Difference between React and ReactDOM ? 
+## 5. Difference between React and ReactDOM ? 
 
 ### React vs. ReactDOM: Building and Furnishing a House
 
@@ -127,7 +127,7 @@ In web terms, the `crossorigin` attribute dictates how the browser requests and 
 | **APIs and Functions**  | - `React.createElement()` <br> - `React.Component` <br> - `React.useState()` | - `ReactDOM.render()` <br> - `ReactDOM.unmountComponentAtNode()` |
 
 
-## What is difference between react.development.js and react.production.js files via CDN?
+## 6. What is difference between react.development.js and react.production.js files via CDN?
 
 ### React: Development vs. Production
 
@@ -142,7 +142,7 @@ In web terms, the `crossorigin` attribute dictates how the browser requests and 
 | **Example**     | `<script src="https://unpkg.com/react@18/umd/react.development.js"></script>` | `<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>` |
 
 
-## Difference between async and defer ? 
+## 7. Difference between async and defer ? 
 
 ### Async Coffee Delivery
 
