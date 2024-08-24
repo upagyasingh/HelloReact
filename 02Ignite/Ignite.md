@@ -113,6 +113,22 @@ eg :
 | `type="text/css"`                   | Although CSS is usually within `<style>` tags, this type can be used for inline styles or style-related scripts (uncommon).                                          |
 | Custom Types (e.g., `type="text/custom"`) | Used to store custom data or content that can be accessed and manipulated later by JavaScript. The content is not executed or processed by the browser.             |
 
+## 5. Browserslist:
+- Browserslist is a tool that specifies which browsers should be supported/compatible in your frontend app.
+- It makes our code compatible for a lot of browsers.
+- eg : in `package.json` add ->  "browserList" : ["last 2 Chrome versions"],
+
+## 6. Tree Shaking : 
+
+- Tree shaking is a process of removing the unwanted code that we do not use while developing the application.
+- In computing, tree shaking is a dead code elimination technique that is applied when optimizing code.
+
+## 7. HMR - `Hot Module Replacement` :
+
+- It means that parcel will keep a track of all the files which you are updating.
+- There is `File Watcher Algorithm` (written in **C++**). 
+- It keeps track of all the files which are changing realtime and it tells the server to reload.
+- These are all done by PARCEL.
 
 
 

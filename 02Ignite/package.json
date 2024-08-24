@@ -2,10 +2,11 @@
   "name": "02ignite",
   "version": "1.0.0",
   "description": "igniting the app from scratch",
-  "main": "App.js",
   "scripts": {
-    "test": "jtest"
+    "test": "jtest",
+    "start": "parcel index.html"
   },
+  "browserList" : ["last 2 Chrome versions"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/upagyasingh/HelloReact.git"
@@ -27,4 +28,5 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   }
+  
 }
